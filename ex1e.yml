@@ -1,0 +1,23 @@
+---
+network_devices:
+    - 
+        host: rtr1
+        username: jan
+        password: haslo1
+        device_type: cisco
+        use_session_log: True
+        ip_addresses:
+            - 1.1.1.1
+            - 2.2.2.2
+            - 3.3.3.3
+    - 
+        host: rtr2
+        username: pawel
+        password: haslo2
+        device_type: juniper
+        use_session_log: False
+        ip_addresses:
+            - 4.4.4.4
+            - 5.5.5.5
+            - 6.6.6.6
+

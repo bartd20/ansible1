@@ -1,0 +1,17 @@
+---
+- name: Hello World!
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - debug:
+        var: ansible_host
+
+- name: Cisco job
+  hosts: cisco
+  gather_facts: False
+  tasks:
+    - debug:
+        var: ansible_connection
+    - debug:
+        var: ansible_host
+

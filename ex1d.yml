@@ -1,0 +1,10 @@
+---
+{rtr1:
+    {host: cerber,
+    username: jan,
+    password: haslo,
+    device_type: cisco,
+    use_session_log: True
+    }
+}
+

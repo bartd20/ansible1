@@ -1,0 +1,7 @@
+---
+- name: Hello World!
+  hosts: localhost
+  tasks:
+    - debug:
+        var: ansible_host
+
